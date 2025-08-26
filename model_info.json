@@ -1,0 +1,32 @@
+{
+    "feature_columns": [
+        "bed",
+        "bath",
+        "carport",
+        "building_area_m2",
+        "surface_area_m2",
+        "location_encoded"
+    ],
+    "location_mapping": {
+        "Bantul": 0,
+        "Gunung Kidul": 1,
+        "Kulon Progo": 2,
+        "Sleman": 3,
+        "Yogyakarta": 4
+    },
+    "model_performance": {
+        "r2_score": 0.867656927219655,
+        "rmse": 239628448.16685125,
+        "mae": 129836862.65079767,
+        "cv_mean": 0.8452160995828564,
+        "cv_std": 0.024106347357195017
+    },
+    "best_params": {
+        "n_estimators": 500,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20,
+        "bootstrap": true
+    }
+}
